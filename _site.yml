@@ -4,12 +4,15 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+      icon: fa-home
       
   right:
-    - text: "Reading Data and Plotting"
+    - text: "Reading Data"
+      href: Reading_data.html
+      icon: fa-folder
+    - text: "Plotting Data"
+      icon: fa-line-chart
       menu:
-        - text: "Reading data"
-          href: Reading_data.html
         - text: "Barplots"
           href: Plotting_file.html
         - text: "Barplot using ggplotly"
